@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    color: #3f51b5;
+    
+}
+body{
+    border-color:  #3f51b5;
+}
+.mainBox{
+    border: 1px solid white;
+    width: 560px;
+    height: 
+    padding: 15px 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+    border-color:  #3f51b5;
+
+   
+}
+#facebook{
+    background-color: #0b154c;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 15px 0px;
+    margin-top: 20px;
+
+}
+#facebook:hover{
+    background-color: #3f51b5;
+}
+form{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#create{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+#creat:hover{
+    color: white;
+    background-color: #3f51b5
+}
+#name, #sname, #email, .pass{
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px:;
+    border:  1px solid white;
+    border-color:  #3f51b5;
+    margin-top: 10px;
+
+}
+label{
+    width: 70%;
+    padding: 8px;
+    margin-top: 15px:;
+    margin-top: 10px;
+}
+ #check{
+    padding-left: 18px;
+    border-radius: 5px;
+    margin-top: 15px:;
+    border:  1px solid white;
+    margin-top: 10px;
+}
+#check, #yes, #accept, #sign{
+    margin-top: 10px;
+}
+#sign{
+    }
+#buttons{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#signIn{
+    text-decoration: none;
+    color:  white;
+}
+#signIn:hover{
+    text-decoration: underline;
+    color:   #0b154c;
+}
+#submit{
+    border-color: #3f51b5;
+    border: px;
+    background-color: #3f51b5;
+    padding: 3px 9px;
+    color: white;
+}
+#submit:hover{
+    background-color: white;
+    border-color: white;
+    color: #3f51b5;
+}
