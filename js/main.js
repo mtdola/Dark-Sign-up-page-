@@ -24,7 +24,6 @@ var database = [
 	}
 ]
 
-database.username = user;
-
-var user = username;
-console.log(databsae.username);
+database.username = username;
+database.password = password;
+console.log(database.password);
