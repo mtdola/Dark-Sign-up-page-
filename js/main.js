@@ -27,3 +27,13 @@ var database = [
 database.username = username;
 database.password = password;
 console.log(database.password);
+
+function isUserValid(username, pass) {
+	for (var i =0; i < database.length; i++) {
+		if (database[i].username === username && database[i].password === password) {
+			console.log("Welcome in");
+			return true;
+		}
+	}
+	return false;
+}
